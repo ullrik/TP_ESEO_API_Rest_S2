@@ -29,10 +29,7 @@ public class VilleController {
 		System.out.println("get");
 		// TODO : mon code vers la BDD
 		
-		System.out.println("get 2");
-
 		ArrayList<Ville> listeVille = villeBLOService.getInfoVilles(codePostal);
-
 
 		return listeVille;
 	}
